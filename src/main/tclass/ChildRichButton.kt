@@ -1,4 +1,4 @@
-package test.tclass
+package main.tclass
 
 class ChildRichButton : RichButton() {
 

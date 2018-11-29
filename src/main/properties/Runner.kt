@@ -1,4 +1,4 @@
-package test.properties
+package main.properties
 
 fun main(args: Array<String>) {
     val privateUser = PrivateUser("mwqdqwd@gmail.com")

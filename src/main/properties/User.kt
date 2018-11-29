@@ -1,4 +1,4 @@
-package test.properties
+package main.properties
 
 interface User {
     val nickname: String

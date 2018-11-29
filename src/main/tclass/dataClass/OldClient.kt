@@ -1,4 +1,4 @@
-package test.tclass.dataClass
+package main.tclass.dataClass
 
 class OldClient(val name: String, val postalCode: Int) {
     override fun equals(other: Any?): Boolean {

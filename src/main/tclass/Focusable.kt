@@ -1,4 +1,4 @@
-package test.tclass
+package main.tclass
 
 interface Focusable {
     fun setFocus(b: Boolean) = println("I ${if (b) "got" else "lost"} focus")

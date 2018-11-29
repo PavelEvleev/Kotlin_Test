@@ -1,4 +1,4 @@
-package test.properties.set
+package main.properties.set
 
 class LengthCounter {
     var counter: Int = 0

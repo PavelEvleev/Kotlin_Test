@@ -1,4 +1,4 @@
-package test.constructor
+package main.constructor
 
 class Employee(
         name: String,

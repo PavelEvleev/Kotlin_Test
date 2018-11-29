@@ -1,4 +1,4 @@
-package test.tclass
+package main.tclass
 
 open class RichButton : Clickable {
 

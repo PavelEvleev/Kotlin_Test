@@ -1,8 +1,8 @@
-package test.properties.set
+package main.properties.set
 
 class User(val name: String) {
     var address: String = "unspecified"
-        set(value: String) {
+        set(value) {
             println("""
                 Address was changed for $name:
                 "$field" -> "$value".

@@ -1,4 +1,4 @@
-package test.tclass.dataClass
+package main.tclass.dataClass
 
 data class NewClient(val name: String, val postalCode: Int)
 

@@ -1,4 +1,4 @@
-package test.constructor
+package main.constructor
 
 fun main(args: Array<String>) {
     val person = Person("Pavel", "asasd")

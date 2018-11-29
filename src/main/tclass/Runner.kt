@@ -1,4 +1,4 @@
-package test.tclass
+package main.tclass
 
 fun main(args: Array<String>) {
     val button = Button()
