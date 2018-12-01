@@ -1,17 +1,20 @@
 package main.properties.delegate
 
 class Person(val name: String, age: Int, salary: Int) : PropertyChangeAware() {
-    var age: Int = age
-        set(newValue) {
-            val oldValue = field
-            field = newValue
-            changeSupport.firePropertyChange("age", oldValue, newValue)
+
+    val _age = ObservableProperty("age", age, changeSupport)
+
+    var age: Int
+        get() = _age.getValue()
+        set(value) {
+            _age.setValue(value)
         }
 
-    var salary: Int = salary
-        set(newValue) {
-            val oldValue = field
-            field = newValue
-            changeSupport.firePropertyChange("salary", oldValue, newValue)
+    val _salary = ObservableProperty("salary", salary, changeSupport)
+
+    var salary: Int
+        get() = _salary.getValue()
+        set(value) {
+            _salary.setValue(value)
         }
 }
