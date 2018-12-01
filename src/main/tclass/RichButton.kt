@@ -2,11 +2,11 @@ package main.tclass
 
 open class RichButton : Clickable {
 
-    fun disable() = println("Disable")
+  fun disable() = println("Disable")
 
-    open fun animate() = println("Animte")
+  open fun animate() = println("Animte")
 
-    final override fun click() {
-        println("RichButton click")
-    }
+  final override fun click() {
+    println("RichButton click")
+  }
 }

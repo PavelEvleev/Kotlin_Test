@@ -1,13 +1,13 @@
 package main.properties
 
 fun main(args: Array<String>) {
-    val privateUser = PrivateUser("mwqdqwd@gmail.com")
+  val privateUser = PrivateUser("mwqdqwd@gmail.com")
 
-    println(privateUser.nickname)
+  println(privateUser.nickname)
 
-    val subscribingUser = SubscribingUser("qwdqfwic@gmail.com")
+  val subscribingUser = SubscribingUser("qwdqfwic@gmail.com")
 
-    println("email: ${subscribingUser.email}")
-    println("nickname: ${subscribingUser.nickname}")
+  println("email: ${subscribingUser.email}")
+  println("nickname: ${subscribingUser.nickname}")
 
 }

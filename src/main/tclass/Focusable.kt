@@ -1,7 +1,7 @@
 package main.tclass
 
 interface Focusable {
-    fun setFocus(b: Boolean) = println("I ${if (b) "got" else "lost"} focus")
+  fun setFocus(b: Boolean) = println("I ${if (b) "got" else "lost"} focus")
 
-    fun showOff() = println("I'm focusable!")
+  fun showOff() = println("I'm focusable!")
 }

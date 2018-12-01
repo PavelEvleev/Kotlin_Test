@@ -2,7 +2,7 @@ package main.tclass
 
 interface Clickable {
 
-    fun click()
+  fun click()
 
-    fun showOff() = println("I'm clickable!")
+  fun showOff() = println("I'm clickable!")
 }
