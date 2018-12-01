@@ -1,4 +1,4 @@
-package test.tclass
+package main.tclass
 
 class ChildRichButton : RichButton() {
 
@@ -6,9 +6,9 @@ class ChildRichButton : RichButton() {
 //    override fun disable() {}
 
 
-    override fun animate() {
-        println("ChildMethod animate")
-        super.animate()
-    }
+  override fun animate() {
+    println("ChildMethod animate")
+    super.animate()
+  }
 
 }
