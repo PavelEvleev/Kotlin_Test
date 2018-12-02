@@ -1,4 +1,4 @@
-package main.lamda
+package main.lamda.first
 
 import kotlin.concurrent.thread
 

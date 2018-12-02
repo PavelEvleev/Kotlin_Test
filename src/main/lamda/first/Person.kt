@@ -1,4 +1,4 @@
-package main.lamda
+package main.lamda.first
 
 data class Person(val name: String, val age: Int)
 
