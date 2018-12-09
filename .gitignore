@@ -3,6 +3,7 @@
 .idea
 out/
 *.iml
+.gradle
 
 # Log file
 *.log
