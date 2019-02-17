@@ -1,7 +1,7 @@
 package test.kotlin.lamda.second
 
-import main.lamda.second.Example.sum
-import main.lamda.second.Example.twoAndThree
+import test.kotlin.lamda.second.Example.sum
+import test.kotlin.lamda.second.Example.twoAndThree
 
 
 object Example {

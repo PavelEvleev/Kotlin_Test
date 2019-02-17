@@ -1,6 +1,6 @@
 package test.kotlin.nullable
 
-fun main(args: Array<String>) {
+fun main() {
   println(strLen(null))
   with("Masha") {
     println(length)
@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
   for (i in 0.."Masha".length) {
     println("3")
   }
+
 }
 
 private fun strLen(string: String?) = string?.length ?: 0

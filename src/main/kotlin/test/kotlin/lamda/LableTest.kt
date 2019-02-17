@@ -1,6 +1,6 @@
 package test.kotlin.lamda
 
-import main.lamda.first.Person
+import test.kotlin.lamda.first.Person
 
 fun main(args: Array<String>) {
   val people = listOf(Person("Bob", 23), Person("Alice", 23), Person("Alb", 23))
